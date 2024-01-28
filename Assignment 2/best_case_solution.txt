@@ -1,0 +1,20 @@
+Status: Optimal
+Z = 53.0
+tA = 0.0
+tB = 0.0
+tC = 3.0
+tD1 = 1.0
+tD2 = 4.0
+tD3 = 9.0
+tD4 = 14.0
+tD5 = 44.0
+tD6 = 29.0
+tD7 = 37.0
+tD8 = 47.0
+tE = 5.0
+tF = 50.0
+tG = 49.0
+tH = 52.0
+Objective 53.0
+
+

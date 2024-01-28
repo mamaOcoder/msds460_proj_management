@@ -1,0 +1,19 @@
+taskID,task,predecessorTaskIDs,bestCaseHours,expectedHours,worstCaseHours,projectManager,frontendDeveloper,backendDeveloper,dataScientist,dataEngineer
+A,Describe product,,1,2,3,1,1,,,
+B,Develop marketing strategy,,5,10,15,1,,,1,
+C,Design brochure,A,2,3,4,,1,,,
+D,Develop product prototype,,,,,,,,,
+D1,Requirements analysis,A,3,5,7,,1,1,1,1
+D2,Software design,D1,10,14,20,,1,1,,1
+D3,System design,D1,5,10,15,,,1,,1
+D4,Coding,"D2, D3",15,18,25,,1,1,1,1
+D5,Write documentation,D4,3,4,6,,1,1,1,1
+D6,Unit testing,D4,8,10,12,,1,1,1,1
+D7,System testing,D6,10,12,15,,,1,,1
+D8,Package deliverables,"D5, D7",2,3,4,1,,,,
+E,Survey potential market,"B, C",5,6,7,1,,,1,
+F,Develop pricing plan,"D8, E",2,4,6,1,,,1,
+G,Develop implementation plan,"A, D8",3,4,5,1,,,,
+H,Write client proposal,"F, G",1,2,3,1,,,,
+,,,,,,,,,,
+*All workers have the same hourly rate ,,,,,,,,,,

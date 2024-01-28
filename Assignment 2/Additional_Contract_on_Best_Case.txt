@@ -1,0 +1,19 @@
+Status: Optimal
+Coding = 14.0
+Describe_product = 0.0
+Design_brochure = 3.0
+Develop_implementation_plan = 44.0
+Develop_marketing_strategy = 0.0
+Develop_pricing_plan = 45.0
+Package_deliverables = 42.0
+Requirements_analysis = 1.0
+Software_design = 4.0
+Survey_potential_market = 5.0
+System_design = 9.0
+System_testing = 32.0
+Unit_testing = 24.0
+Write_client_proposal = 47.0
+Write_documentation = 39.0
+Z = 48.0
+Objective 48.0
+
