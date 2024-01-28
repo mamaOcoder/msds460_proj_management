@@ -1,0 +1,154 @@
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    
+Objective:  OBJ = 70 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 _C1          NL       2.00000        .            2.00000         .             .           70.00000 Design_brochure
+                                            .               +Inf        7.00000          +Inf      70.00000 _C5
+
+     2 _C10         NL      18.00000        .           18.00000      -21.00000        .           70.00000 Write_documentation
+                                            .               +Inf       36.00000          +Inf      70.00000 _C12
+
+     3 _C11         NL      18.00000        .           18.00000         .           -1.00000      52.00000 _C12
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+     4 _C12         BS      22.00000     -18.00000       4.00000           +Inf      -1.00000      48.00000 _C11
+                                            .               +Inf           -Inf        .           70.00000 _C10
+
+     5 _C13         NL      10.00000        .           10.00000       -8.00000      -1.00000      52.00000 _C12
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+     6 _C14         NL      12.00000        .           12.00000       -6.00000      -1.00000      52.00000 _C12
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+     7 _C15         NL       3.00000        .            3.00000        3.00000      -1.00000      70.00000 _C16
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+     8 _C16         BS       3.00000        .            3.00000           +Inf      -1.00000      67.00000 _C15
+                                            .               +Inf      -59.00000        .           70.00000 _C19
+
+     9 _C17         BS      54.00000     -48.00000       6.00000           +Inf      -1.00000      16.00000 _C11
+                                            .               +Inf           -Inf        .           70.00000 _C4
+
+    10 _C18         NL       4.00000        .            4.00000        4.00000      -1.00000      70.00000 _C16
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    
+Objective:  OBJ = 70 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 _C19         NL       4.00000        .            4.00000           -Inf        .           70.00000
+                                            .               +Inf        4.00000          +Inf      70.00000 _C16
+
+    12 _C2          NL       2.00000        .            2.00000         .           -1.00000      68.00000 Requirements_analysis
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+    13 _C20         NL       2.00000        .            2.00000      -68.00000      -1.00000        .      Z
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+    14 _C3          BS      64.00000     -62.00000       2.00000           +Inf      -1.00000       6.00000 _C11
+                                            .               +Inf       64.00000        .           70.00000 _C19
+
+    15 _C4          NL      10.00000        .           10.00000        5.00000        .           70.00000 _C5
+                                            .               +Inf       58.00000          +Inf      70.00000 _C17
+
+    16 _C5          BS       8.00000      -5.00000       3.00000       56.00000        .           70.00000 _C4
+                                            .               +Inf           -Inf        .           70.00000 _C1
+
+    17 _C6          NL       5.00000        .            5.00000        1.00000      -1.00000      66.00000 _C9
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+    18 _C7          NL       5.00000        .            5.00000       -2.00000        .           70.00000 System_design
+                                            .               +Inf        9.00000          +Inf      70.00000 _C9
+
+    19 _C8          NL      14.00000        .           14.00000       10.00000      -1.00000      66.00000 _C9
+                                           1.00000          +Inf           +Inf          +Inf          +Inf
+
+    20 _C9          BS      14.00000      -4.00000      10.00000           +Inf      -1.00000      56.00000 _C6
+                                            .               +Inf           -Inf        .           70.00000 _C7
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    
+Objective:  OBJ = 70 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Z            BS      70.00000       1.00000        .                +Inf        .             .      _C11
+                                            .               +Inf       70.00000          +Inf          +Inf
+
+     2 Describe_product
+                    NL        .             .             .            -2.00000      -1.00000      68.00000 Design_brochure
+                                           1.00000          +Inf        5.00000          +Inf      75.00000 _C5
+
+     3 Design_brochure
+                    BS       2.00000        .             .             7.00000        .           70.00000 _C1
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+     4 Coding       BS      21.00000        .             .                +Inf      -1.00000      49.00000 _C2
+                                            .               +Inf       21.00000          +Inf          +Inf
+
+     5 Write_documentation
+                    BS      39.00000        .             .            57.00000        .           70.00000 _C10
+                                            .               +Inf       39.00000          +Inf          +Inf
+
+     6 Unit_testing BS      39.00000        .             .                +Inf      -1.00000      31.00000 _C11
+                                            .               +Inf       39.00000          +Inf          +Inf
+
+     7 Package_deliverables
+                    BS      61.00000        .             .                +Inf      -1.00000       9.00000 _C11
+                                            .               +Inf       61.00000          +Inf          +Inf
+
+     8 System_testing
+                    BS      49.00000        .             .                +Inf      -1.00000      21.00000 _C11
+                                            .               +Inf       49.00000          +Inf          +Inf
+
+     9 Develop_pricing_plan
+                    BS      64.00000        .             .                +Inf      -1.00000       6.00000 _C11
+                                            .               +Inf       64.00000          +Inf          +Inf
+
+    10 Develop_implementation_plan
+                    BS      64.00000        .             .                +Inf      -1.00000       6.00000 _C11
+                                            .               +Inf       64.00000        .           70.00000 _C19
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    
+Objective:  OBJ = 70 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 Survey_potential_market
+                    BS      10.00000        .             .            58.00000        .           70.00000 _C4
+                                            .               +Inf       10.00000          +Inf          +Inf
+
+    12 Write_client_proposal
+                    BS      68.00000        .             .                +Inf      -1.00000       2.00000 _C11
+                                            .               +Inf       68.00000          +Inf          +Inf
+
+    13 Requirements_analysis
+                    BS       2.00000        .             .                +Inf      -1.00000      68.00000 _C2
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    14 Develop_marketing_strategy
+                    NL        .             .             .            -5.00000        .           70.00000 _C5
+                                            .               +Inf       48.00000          +Inf      70.00000 _C17
+
+    15 Software_design
+                    BS       7.00000        .             .                +Inf      -1.00000      63.00000 _C2
+                                            .               +Inf        7.00000          +Inf          +Inf
+
+    16 System_design
+                    BS       7.00000        .             .            11.00000        .           70.00000 _C7
+                                            .               +Inf        7.00000          +Inf          +Inf
+
+End of report
