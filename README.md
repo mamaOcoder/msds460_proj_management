@@ -1,7 +1,11 @@
 # Assignment 2: Network Models- Project Management
 
+## Problem Setup
+Our group has met multiple times to discuss this project and to work through it together as a team. We all collaborated to tackle the excel spreadsheet and to decide the workforce power necessary to complete each individual task. Given the diverse components of the project timeline, we encountered some uncertainty. While attempting to find general timelines for these tasks through Google searches and our knowledge, we often faced challenges due to the broad estimates our research would yield. Regarding cost estimates, we opted for a uniform rate. Determining distinct rates for each employee proved challenging, particularly because we were not familiar with prevailing market prices for specific roles, leading our research to provide various rates. Consequently, we settled on a fair market rate of $35 per hour for these jobs.
+
 ## Project Overview
 We are thrilled to present our proposal for the development of a cutting-edge consumer recommendation system, designed to highlight and celebrate the diverse and vibrant restaurant scene in Marlborough, Massachusetts. Leveraging the insightful and rich data drawn from Yelp reviews, our system is poised to offer highly personalized and dynamic restaurant recommendations. This tailored approach aims not only to enrich the dining experiences of our users but also to bolster local businesses by connecting them with a broader audience.
+
 
 In this report, we will outline three distinct scenarios that detail the development timelines for the recommendation system. Each scenario is carefully crafted to balance project efficiency with thoroughness, ensuring that we meet a range of potential needs and constraints.
 ## [Development Formulation](https://github.com/mamaOcoder/msds460_proj_management/blob/main/Assignment%202/Project%20Plan%20-%20Sheet1.csv)
