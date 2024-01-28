@@ -13,7 +13,7 @@ Here is a directed graph where each node represents a stage, and the numbers on 
 
 ![directed_graph](https://github.com/mamaOcoder/msds460_proj_management/blob/main/Assignment%202/directed%20graph.png)
 
-## [Linear Programming (Python Code)](https://github.com/mamaOcoder/msds460_proj_management/blob/Hantao's-branch/Assignment%202/Assignment_2.ipynb) 
+## [Linear Programming (Python Code)](https://github.com/mamaOcoder/msds460_proj_management/blob/main/Assignment2.py) 
 We have solved the linear programming problem under three different scenarios, accompanied by Gantt charts to facilitate a clearer understanding of the time required in each case: 
 
 - [Best Case](https://github.com/mamaOcoder/msds460_proj_management/blob/main/Assignment%202/best_case_solution.txt): 53 hours
