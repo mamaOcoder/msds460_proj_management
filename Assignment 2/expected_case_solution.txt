@@ -1,0 +1,19 @@
+Status: Optimal
+Z = 70.0
+tA = 0.0
+tB = 0.0
+tC = 7.0
+tD1 = 2.0
+tD2 = 7.0
+tD3 = 11.0
+tD4 = 21.0
+tD5 = 57.0
+tD6 = 39.0
+tD7 = 49.0
+tD8 = 61.0
+tE = 10.0
+tF = 64.0
+tG = 64.0
+tH = 68.0
+Objective 70.0
+
